@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.imooc.maven01</groupId>
+  <artifactId>maven01-model</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181107063427</lastUpdated>
+  </versioning>
+</metadata>

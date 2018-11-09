@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 09 11:13:21 CST 2018
+maven-ssm-mapper-0.0.1-SNAPSHOT.jar>=
+maven-ssm-mapper-0.0.1-SNAPSHOT.pom>=
+maven-ssm-mapper-0.0.1-20181109.030151-1.pom>nexus=
+maven-ssm-mapper-0.0.1-20181109.030151-1.jar>nexus=

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 07 15:57:43 CST 2018
+@default-maven.net.cn-http\://maven.net.cn/content/groups/public/.lastUpdated=1541577463066
+http\://maven.net.cn/content/groups/public/.error=Could not transfer artifact org.apache.maven.plugins\:maven-resources-plugin\:pom\:2.6 from/to maven.net.cn (http\://maven.net.cn/content/groups/public)\: Connect to maven.net.cn\:80 [maven.net.cn/114.215.201.67] failed\: Connection refused\: connect
