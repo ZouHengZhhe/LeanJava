@@ -1,0 +1,5 @@
+package com.sikiedu.myfirstspringboot.controller;
+
+public class HelloController {
+
+}
