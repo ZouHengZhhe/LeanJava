@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    cache: false  #热部署
+    encoding: UTF-8   #编码
+    mode: HTML5   #使用HTML5标准
+  h2:
+    console:
+      enabled: true  #使用h2的控制台
+
+#SecretId: AKIDsZ2GE1pu2vbSClvHCwUo00nLgolVrNYU
+#SecretKey: qSp0yhIjvugHhwypUu51jFWbYMwGLDvO

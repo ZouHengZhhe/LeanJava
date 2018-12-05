@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--引入播放器的css，让播放器变得好看-->
+    <link href="//imgcache.qq.com/open/qcloud/video/tcplayer/tcplayer.css" rel="stylesheet"></link>
+
+    <!--引入播放器的js-->
+    <script src="//imgcache.qq.com/open/qcloud/video/tcplayer/tcplayer.min.js"></script>
+
+    <!--现代浏览器通过h5播放hls，需要引入新的js-->
+
+</head>
+<body>
+
+    <h1>这是播放界面</h1>
+
+    <!--他不知道要播放什么文件-->
+    <!--创建播放的位置-->
+    <video id="start" preload="auto" width="1920" height="1080"></video>
+
+    <!--appID:1258072453-->
+    <!--视频ID：5285890783390346775-->
+    <script type="text/javascript">
+
+        // 告诉浏览器要播放什么视频,start为播放位置的id
+        var player=TCPlayer("start",{
+            fileID:"5285890783390346775",  //视频ID
+            appID:"1258072453",   //appID
+            autoplay:false
+        });
+
+    </script>
+
+</body>
+</html>
