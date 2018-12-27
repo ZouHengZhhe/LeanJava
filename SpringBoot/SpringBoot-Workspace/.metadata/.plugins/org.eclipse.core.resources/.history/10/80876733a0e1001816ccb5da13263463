@@ -1,6 +1,0 @@
-#Tymeleaf 编码
-spring.thymeleaf.encoding=utf-8
-#热部署静态文件
-spring.thymeleaf.cache=false
-#使用HTML5的标准
-spring.thmeleaf.mode=HTML5

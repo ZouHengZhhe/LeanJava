@@ -1,0 +1,21 @@
+spring:
+  thymeleaf:
+#    thymeleaf编码
+    encoding: UTF-8
+#    thymeleaf热部署
+    cache: false
+    mode: HTML5
+  jpa:
+    show-sql: true
+    hibernate:
+#      自动生成SQL语句
+      ddl-auto: update
+
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:mysql:///shakes?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

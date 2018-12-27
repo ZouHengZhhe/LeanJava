@@ -1,9 +1,0 @@
-package com.sikiedu.userlogindemo.repository;
-
-import org.springframework.data.repository.CrudRepository;
-
-import com.sikiedu.userlogindemo.domain.User;
-
-public interface UserRepository extends CrudRepository<User, Long>{
-	
-}
